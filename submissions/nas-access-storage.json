@@ -1,0 +1,30 @@
+{
+  "answers": {
+    "nas_folder": [
+      "correct"
+    ],
+    "nas_git": [
+      "correct"
+    ]
+  },
+  "artifacts": [],
+  "attestation": {
+    "reviewed": true,
+    "no_secrets": true,
+    "observed_result": true
+  },
+  "curriculum_version": "2.1.2",
+  "mission": "nas-access-storage",
+  "receipts": {
+    "challenge_digest": "1dc058bba2b2d2c93f8ac1a06833c54d035f4c61b06492c361e8bdafe2f9628e",
+    "checks": {
+      "read": true,
+      "removed": true,
+      "username_boundary": true,
+      "write": true
+    },
+    "passed": true,
+    "verifier": "nas_access"
+  },
+  "schema_version": 2
+}
